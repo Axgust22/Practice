@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nav-bar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem;
+}
+#txt {
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+#txt:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+#h1-name {
+  font-size: 2rem;
+  display: block;
+  padding: 20px;
+}
+.header p {
+  padding: 10px;
+  font-size: 1rem;
+  display: block;
+}
+
+#professional > h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin: 16px;
+}
+#professional > p {
+  margin: 16px;
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+
+#work > h2 {
+  display: block;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+#work > h3 {
+  padding: 20px;
+  display: block;
+  font-size: 1.5rem;
+  margin: 16px;
+}
+#work > p {
+  margin: 16px;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#education > h2 {
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+#education > h3 {
+  padding: 20px;
+  display: block;
+  font-size: 1.5rem;
+  margin: 16px;
+}
+
+#skills > h2 {
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+#project > h2 {
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+#languages > h2 {
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+#contact > h2 {
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+}
